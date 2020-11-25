@@ -8,4 +8,4 @@ RUN pip install -r /app/requirements.txt
 ADD . /app
 
 ENV PORT 8080
-CMD ["python", "server.py"]
+CMD ["python", "app.py"]
